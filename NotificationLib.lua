@@ -78,3 +78,5 @@ _G.createNotification = function(text, duration)
     task.wait(0.5)
     ScreenGui:Destroy()
 end
+
+print("Loadstring loaded")
