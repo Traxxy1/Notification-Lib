@@ -3,7 +3,7 @@ local plr = game.Players.LocalPlayer
 local camera = workspace.CurrentCamera
 local ts = game:GetService("TweenService")
 
-_G.createNotification = function(text, duration)
+function createNotification(text, duration)
 	local ScreenGui = Instance.new("ScreenGui")
 	local Frame = Instance.new("Frame")
 	local ImageLabel = Instance.new("ImageLabel")
